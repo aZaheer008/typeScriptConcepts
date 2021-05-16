@@ -1,0 +1,38 @@
+Tpyescript is a decoration guard , who will look user code during development that user shall not remained errors
+ in code which will then disturb the core logic behind any algorithm or any other prcoess.
+
+Every entity or value has a type like "zaheer" is string and its type define that it has all methods in its propert 
+which are available to type of string.
+
+we can intentionally set type of en entity to restirct to not have wrong value like number in string.
+
+Now in index we have define type of json object as interface and then applied it to response of rest api 
+then during development it display the error when I have intentionally put wrong spelling of object key and sever 
+can run the code , so i am facing this issue in anitial phase of any logic of my bigger project , so i can easily 
+trace it and solved it, if i didn't use type definition then in future when code base will be large and issue 
+occured it was very lengthy process to find where string has value of type number.
+
+annotations/variables
+Typescript usually pick type from initialized value and then imposed that type on next assigment for that 
+variables but if you want to there should be clearification for type then you should have defined variable type
+on declaration or intialization of type;
+
+annotations/objects
+when using object destructuring then you should annotate properties type 
+
+annotaions/functions
+functions parameters and their return condition definition should be define so there will be no confusion that
+what output that function will return;
+
+arrays and tuples
+type definition of generl arrays will be the same type for entire array while for tuples every element in
+array has defferent type and it us commonly used in csv data parsing on server side.
+
+interfaces
+define type of object (define each property and their type ) as per requirement than as modal used that type 
+for Your required variables that is called interface.
+
+classes
+parents container of formation, abstraction , encapsulation of data, so we can use code in sophisticated ,
+decorated and standardly fabricated way which is once defined without defining repeatedly for repeated use.
+

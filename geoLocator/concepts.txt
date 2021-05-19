@@ -1,0 +1,6 @@
+In this project I have learn design pattern that when we have requirement of use a class as dependecny for 
+others classes so we will not put our require conditions on that model class so it can handle all other classes, what 
+we do is , we create a modal class and make compulsory for all other accessor of this class that they shall make 
+themselves compatible to work with modal class. So by this methodology we have decoupled the compatibility logic
+and put its responsibility to accessor. Now it will be easily manage. On the other hand if we not use this then 
+we are putting every time accessor information in modal class which is burden of irrelvant code on that class.

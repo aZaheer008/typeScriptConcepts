@@ -1,0 +1,6 @@
+In this project I have learned how decouple sorting algorithm from type of data 
+Just implement  the basic algorithm of sorting and give the rest of work to individual class to complete the requirement to 
+perform sorting on data.
+Learned when to use abstract classes 
+(we directly  cannot instiate object of abstract class , its just for declerafication of methods and properties that the class  
+which will inherit it should have all the methods and properties declare in this class );

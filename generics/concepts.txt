@@ -1,0 +1,2 @@
+In this chapter I have learn that how to create generic classes to use with any type of class and functions and how to make 
+functions to compatible with type of class, by using interfaces and it is called as constraint.

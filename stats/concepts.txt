@@ -1,0 +1,4 @@
+// In this chapter we learn that inheritance is causes more extra loaded code and redunded style of coding for scenario where 
+// composition can work .In inheritance class has repeated code from ancestors and if need to change in any one as it become nested
+// so changing in any of parent class will cause to effect child class as well while composition is more decoupled and independent style
+// of coding and it can be easily update without effecting their dependent.

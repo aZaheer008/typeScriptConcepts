@@ -1,0 +1,2 @@
+In this project I have experienced that how to use redux with scriptTyping and how to configure reducer, custom dispatcher,
+custom useSelector (TypedUseSelectorHook) to restrict for type of state.

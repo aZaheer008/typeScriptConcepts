@@ -1,0 +1,2 @@
+In this project I have experienced how to do work with strict typing for every action , this will refined Your code from 
+production errors, and in case mistake has done it will caught easily.
